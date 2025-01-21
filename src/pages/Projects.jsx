@@ -3,7 +3,7 @@ import '../styles/projects.css'
 
 export const Projects = () => {
     return (
-        <div className="h-screen text-center mt-10">
+        <div className="flex flex-col items-center h-screen my-10">
             <h1 className="text-3xl font-bold">Projects</h1>
         </div>
     )

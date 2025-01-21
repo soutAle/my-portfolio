@@ -1,6 +1,13 @@
-@tailwind tailwindcss/base;
-@tailwind tailwindcss/components;
-@tailwind tailwindcss/utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Aplica fondo oscuro y altura completa a todo el documento */
+body {
+  @apply bg-gray-900 text-white min-h-screen;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

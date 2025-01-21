@@ -1,13 +1,9 @@
 import '../styles/home.css'
-import { CounterTestRedux } from '../components/CounterTestRedux.jsx'
 
-const Home = () => {
+export const Home = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-screen">
+        <div className="flex flex-col items-center h-screen my-10">
             <h1 className="text-3xl font-bold">Welcome to my portfolio</h1>
-            <CounterTestRedux />
         </div>
     )
 }
-
-export default Home

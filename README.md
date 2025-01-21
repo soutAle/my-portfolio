@@ -1,6 +1,13 @@
-# React + Vite
+# Welcome to my full stack developer portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+**Hey there, my name is Alejandro, but everyone calls me Alex or Ale. I want to your welcome to my full stack portfolio.**
+
+### Tenologies implemented
+  - React
+  - Redux
+  - Tailwind
+  - React router dom
 
 Currently, two official plugins are available:
 

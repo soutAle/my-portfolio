@@ -1,9 +1,11 @@
-import '../styles/home.css'
+import React from "react";
+import { HeroSection } from "../components/home_components/HeroSection.jsx";
 
 export const Home = () => {
     return (
-        <div className="flex flex-col items-center h-screen my-10">
-            <h1 className="text-3xl font-bold">Welcome to my portfolio</h1>
+        <div className="h-screen flex flex-col items-center my-10 px-6">
+            <HeroSection />
         </div>
-    )
-}
+    );
+};
+

@@ -1,27 +1,19 @@
 import React from "react";
+import { getGridColumnsClass } from "../utils/getGridColumns";
 
-export const ImageGrid = ({ images, columns }) => {
-
-    const getGridColumnsClass = (columns) => {
-        switch (columns) {
-            case 1: return "grid-cols-1";
-            case 2: return "grid-cols-2";
-            case 3: return "grid-cols-3";
-            case 4: return "grid-cols-4";
-            default: return "grid-cols-1";
-        }
-    }
+export const ImageGrid = ({ images, columns, figcaption }) => {
 
     return (
         <div className={`grid mt-10 gap-4 ${getGridColumnsClass(columns)}`}>
             {images.map((image, index) => (
-                <div key={index} className="bg-gray-200 rounded-md">
+                <figure key={index}>
                     <img
                         src={image.url}
                         alt={image.alt}
-                        className="w-full h-full object-cover"
+                        className="w-80 m-10 rounded-xl h-full object-cover"
                     />
-                </div>
+                    <figcaption className="text-center text-sm text-gray-400 mt-10">{image.figcaption}</figcaption>
+                </figure>
             ))}
         </div>
     )

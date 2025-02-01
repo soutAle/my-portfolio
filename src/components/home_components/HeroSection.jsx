@@ -5,7 +5,7 @@ import { ImageGrid } from "../ImageGrid.jsx";
 export const HeroSection = ({ title, name, subtitle, description, links }) => {
     return (
         <section className="h-screen flex flex-col items-center my-10 px-6">
-            <h1 className="text-4xl md:text-6xl font-bold text-center mb-10">
+            <h1 className="text-4xl md:text-6xl font-bold text-center my-10">
                 {title}! <span className="text-teal-400">{name}</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-center mb-6">

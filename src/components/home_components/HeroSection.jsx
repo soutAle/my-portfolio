@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ImageGrid } from "../ImageGrid.jsx";
 
 export const HeroSection = ({ title, name, subtitle, description, links }) => {
     return (
@@ -25,15 +24,7 @@ export const HeroSection = ({ title, name, subtitle, description, links }) => {
                     </Link>
                 ))}
             </div>
-            <ImageGrid
-                images={[
-                    { url: 'https://winatalent.com/blog/wp-content/uploads/2023/12/Best-Programming-Software-for-Writing-Code.jpg', alt: 'Picture 1', figcaption: 'Caption for image 1' },
-                    { url: 'https://winatalent.com/blog/wp-content/uploads/2023/12/Best-Programming-Software-for-Writing-Code.jpg', alt: 'Picture 2', figcaption: 'Caption for image 2' },
-                    { url: 'https://winatalent.com/blog/wp-content/uploads/2023/12/Best-Programming-Software-for-Writing-Code.jpg', alt: 'Picture 3', figcaption: 'Caption for image 3' },
-                ]}
-                columns={3}
 
-            />
         </section>
     );
 }

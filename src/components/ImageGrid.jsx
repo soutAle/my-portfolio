@@ -4,7 +4,7 @@ import { getGridColumnsClass } from "../utils/getGridColumns";
 export const ImageGrid = ({ images, columns }) => {
 
     return (
-        <div className={`grid mt-10 gap-4 ${getGridColumnsClass(columns)}`}>
+        <div className={`grid mt-10 gap-10 ${getGridColumnsClass(columns)}`}>
             {images.map((image, index) => (
                 <figure key={index}>
                     <img

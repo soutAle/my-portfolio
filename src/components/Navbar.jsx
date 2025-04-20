@@ -15,7 +15,7 @@ export const Navbar = () => {
                         <h1 className="text-2xl font-bold text-teal-400">
                             Alejandro Valencia Giraldo
                         </h1>
-                        <div className="flex flex-col md:flex-row items-start mt-1 gap-2 md:gap-7 text-gray-400 text-sm mt-1">
+                        <div className="flex flex-col md:flex-row mt-1 gap-2 md:gap-7 text-gray-400 text-sm mt-1">
                             <p className="">
                                 Desarrollador web full stack
                             </p>

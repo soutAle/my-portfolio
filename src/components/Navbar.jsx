@@ -8,14 +8,14 @@ import { SiPostgresql } from "react-icons/si";
 
 export const Navbar = () => {
     return (
-        <nav className="w-full py-6 z-[999] top-0 left-0 right-0 bg-black/50 backdrop-blur text-white">
-            <div className="px-10">
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-end py-4">
-                    <div className="mb-4 md:mb-0">
+        <nav className="w-full pt-6 z-[999] top-0 left-0 right-0 bg-black/50 backdrop-blur text-white">
+            <div className="container mx-auto">
+                <div className="flex flex-col md:flex-row justify-between items-center md:items-end py-4">
+                    <div className="mb-4 md:mb-0 text-center">
                         <h1 className="text-2xl font-bold text-teal-400">
                             Alejandro Valencia Giraldo
                         </h1>
-                        <div className="flex flex-col md:flex-row mt-1 gap-2 md:gap-7 text-gray-400 text-sm mt-1">
+                        <div className="flex flex-col md:flex-row items-center mt-1 gap-2 md:gap-7 text-gray-400 text-sm mt-1">
                             <p className="">
                                 Desarrollador web full stack
                             </p>
@@ -28,7 +28,7 @@ export const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    <ul className="flex flex-col md:flex-row gap-4 text-start">
+                    <ul className="flex flex-row gap-4 text-start items-center text-sm md:text-base">
                         <li>
                             <Link to="/" className="hover:text-teal-400 transition">
                                 Inicio

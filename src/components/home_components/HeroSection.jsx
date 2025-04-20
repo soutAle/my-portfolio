@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export const HeroSection = ({ title, name, subtitle, description, links }) => {
     return (
-        <section className="h-screen flex flex-col items-center my-10 px-6">
+        <section className="flex flex-col items-center mt-10 p-6">
             <h1 className="text-4xl md:text-6xl font-bold text-center my-10">
-                {title}! <span className="text-teal-400">{name}</span>
+                {title} <span className="text-teal-400">{name}</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-center mb-6">
                 {subtitle}
@@ -24,7 +24,6 @@ export const HeroSection = ({ title, name, subtitle, description, links }) => {
                     </Link>
                 ))}
             </div>
-
         </section>
     );
 }

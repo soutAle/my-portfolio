@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     return (
-        <nav className="py-6 z-[999] fixed top-0 left-0 right-0  bg-black/50 backdrop-blur">
+        <nav className="py-3 bg-black/50 backdrop-blur">
             <div className="container mx-auto align-center px-4">
-                <div className="flex justify-center items-end py-4">
+                <div className="flex justify-between items-end py-4">
                     <div className="text-2xl font-bold mx-2">
                         <Link to="/" className="hover:text-gray-300">
-                            icono
+                            Alejandro Valencia Giraldo
                         </Link>
                     </div>
                     <ul className="flex space-x-10 ms-10">

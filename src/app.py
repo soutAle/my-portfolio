@@ -1,8 +1,8 @@
 import os 
 from flask import Flask
 from flask_migrate import Migrate
-from backend.models import db
-from backend.routes import api
+from backend.models.models import db
+from backend.routes.routes import api
 
 app = Flask(__name__)
 db_url = os.environ.get('DATABASE_URL')
